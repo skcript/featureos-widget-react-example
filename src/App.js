@@ -12,10 +12,10 @@ function App() {
   
   return (
     <div>
-      <Basic />
+      {/* <Basic /> */}
       <CustomTrigger />
-      <FloatingTrigger />
-      <FloatingTriggerWithCustomText />
+      {/* <FloatingTrigger /> */}
+      {/* <FloatingTriggerWithCustomText />  */}
     </div>
   );
 }

@@ -13,10 +13,18 @@ function CustomTrigger() {
         type: 'popover',
         openFrom: 'right',
         theme: 'dark',
-
+        enableIndicator: true,
+        showChangelogIndicator: true,
         selector: '#trigger',
         token: 'GEdHL0YpM430Gc0Ch-Tr2w',
-        
+        postOnBehalf: {
+          email: 'varun@example.com',
+          name: 'Varun',
+          add_as_customer: true
+        },
+        customizations: {
+          indicatorColor: '#000',
+        },
         onInitialized: () => {
           console.log('onInitialized')
         }
@@ -28,9 +36,7 @@ function CustomTrigger() {
 
   return (
     <div>
-      <button onClick={() => {
-        widget.current.open()
-      }}>Custom Trigger</button>
+      <button id="trigger">Custom Trigger</button>
     </div>
   );
 }

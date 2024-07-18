@@ -4594,10 +4594,10 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "2.1.1"
 
-featureos-widget@^0.0.13:
-  version "0.0.13"
-  resolved "https://registry.yarnpkg.com/featureos-widget/-/featureos-widget-0.0.13.tgz#f6c0515517aff96078fa6bf5d4956dcc18ffbdc8"
-  integrity sha512-BFbZeAN08SZmXOlr4491JMmQJNguMHpx9mW4r1lI1D3U0EaC3D3VDHyQQKBCuP8oWPhAunKr4FPgFDH47qMrVw==
+featureos-widget@^0.0.23:
+  version "0.0.23"
+  resolved "https://registry.yarnpkg.com/featureos-widget/-/featureos-widget-0.0.23.tgz#77ac20d2c56629e6311c1f7f582262b527e376de"
+  integrity sha512-5k5XFxLSzOZS93TC4zTflug4d6kuhh7h6F+sT80yXJbknNLEuOg+QGc5npUnhlYpIQ2Id/gduNZvMDnkmikMdA==
 
 file-entry-cache@^6.0.1:
   version "6.0.1"

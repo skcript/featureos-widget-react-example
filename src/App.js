@@ -1,21 +1,19 @@
-import { useEffect, useRef } from "react";
 
-import Widget from "featureos-widget"
-import Basic from "./variants/Basic";
-import CustomTrigger from "./variants/CustomTrigger";
-import FloatingTrigger from "./variants/FloatingTrigger";
-import FloatingTriggerWithCustomText from "./variants/FloatingTriggerWithCustomText";
-
-console.log(Widget)
+import ConfigUpdate from "./variants/ConfigUpdate";
+// import Basic from "./variants/Basic";
+// import CustomTrigger from "./variants/CustomTrigger";
+// import FloatingTrigger from "./variants/FloatingTrigger";
+// import FloatingTriggerWithCustomText from "./variants/FloatingTriggerWithCustomText";
 
 function App() {
-  
   return (
     <div>
       {/* <Basic /> */}
-      <CustomTrigger />
+      {/* <CustomTrigger /> */}
+      <ConfigUpdate />
       {/* <FloatingTrigger /> */}
       {/* <FloatingTriggerWithCustomText />  */}
+
     </div>
   );
 }
